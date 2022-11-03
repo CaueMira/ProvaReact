@@ -38,7 +38,7 @@ const Contador = () => {
         Missão é dinamizar os processos de nossos clientes, criando uma área
         comercial mais presente e atuante.
       </div>
-      <img src="https://lh3.googleusercontent.com/p/AF1QipMAVye_4uWIpjHeK8PFY8Ka4lfqErBxd9y4H8E=w1080-h608-p-no-v0" alt="" />
+      <img src="https://www.byseven.com.br/img/marca-by-seven.png" alt="" />
     </div>
   );
 };

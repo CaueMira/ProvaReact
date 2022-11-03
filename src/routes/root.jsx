@@ -17,7 +17,7 @@ const route = createBrowserRouter(
       <Route index path="/" element={<Home />} />
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/noticias" element={<FetchNews />} />
-      <Route path="/album" element={<Album />} />
+      {/* <Route path="/album" element={<Album />} /> */}
       {/* {<Route path="/contato" element={<Contador />} />} */}
       {/* { <Route path="/album" element={<Contador />} />} */}
     </Route>
