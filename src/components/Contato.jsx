@@ -14,14 +14,20 @@ const Contador = () => {
     setContador(0);
   };
 
+
   useEffect(() => {}, [contadorAux]);
 
   return (
     <div>
       <div>
-        <h1>Album da empresa</h1>
+        <h1>Contato</h1>
+        </div>
+      <div>
+      <h1>Segue abaixo nossos meios para contato: </h1>
+      <p>E-mail: contato@byseven.com.br</p>
+      <p>Telefone: +55 47 3432-9000</p>
       </div>
-      <div>testes</div>
+      
     </div>
   );
 };

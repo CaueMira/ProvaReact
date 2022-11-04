@@ -28,17 +28,13 @@ const Contador = () => {
   return (
     <div>
       <div>
-        <h1>Quem somos?</h1>
+        <h1>Quem somos nós?</h1>
         </div>
       <div>
-        A Forge é uma empresa especializada em Soluções de Sistemas e
-        Consultoria para a área Comercial. Com soluções dinâmicas e práticas,
-        tem como objetivo aproximar a empresa de seus clientes, atuando com
-        soluções de gestão da área comercial e melhorias nos processos. Nossa
-        Missão é dinamizar os processos de nossos clientes, criando uma área
-        comercial mais presente e atuante.
+      A by Seven é uma empresa jovem e moderna, focada em oferecer serviços de qualidade aliada a busca de performance e tecnologia. Queremos oferecer o melhor para o nosso cliente, que ele tenha conosco a melhor experiência que poderia ter.
+      Utilizamos com experiência o que há de melhor em soluções de T.I. para agregar valor ao negócio de nossos clientes. Com eficiência, comprometimento sempre suportados pelos melhores métodos e tecnologias consolidadas no mercado.
       </div>
-      <img src="https://www.byseven.com.br/img/marca-by-seven.png" alt="" />
+      
     </div>
   );
 };

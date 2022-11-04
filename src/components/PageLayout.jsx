@@ -15,7 +15,6 @@ import { Link, Outlet } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 
-
 export const PageLayout = () => {
   const DrawerApp = () => (
     <Box style={{ minWidth: "260px" }}>
@@ -37,8 +36,8 @@ export const PageLayout = () => {
           </ListItemButton>
         </ListItem>
         <ListItem>
-          <ListItemButton>
-            <ListItemText primary={"Contato"} component="a" href="/contato" />
+          <ListItemButton component="a" href="/contatos">
+            <ListItemText primary={"Contato"} />
           </ListItemButton>
         </ListItem>
         <ListItem>
@@ -54,7 +53,7 @@ export const PageLayout = () => {
     const [aberto, setAberto] = useState(false);
 
     const lideComOMenu = () => {
-      setAberto(!aberto); 
+      setAberto(!aberto);
     };
 
     return (
@@ -64,13 +63,16 @@ export const PageLayout = () => {
             <IconButton onClick={lideComOMenu}>
               <MenuIcon></MenuIcon>
             </IconButton>
+            <div style={{ padding: "10px" }}>
+              <img
+                style={{ maxHeight: "60px" }}
+                src="https://www.byseven.com.br/img/marca-by-seven.png"
+              />
+            </div>
           </Toolbar>
         </AppBar>
         <Box>
-          <Drawer 
-            open={aberto} 
-            onClose={lideComOMenu}
-          >
+          <Drawer open={aberto} onClose={lideComOMenu}>
             <DrawerApp />
           </Drawer>
         </Box>

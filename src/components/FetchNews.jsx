@@ -34,10 +34,18 @@ const FetchNews = () => {
             key={noticia.id}
           >
             <div>
-              <h2>{noticia.title}</h2>
-              <div>{noticia.body}</div>
+              {/* <h2>{noticia.title}</h2> */}
+              {/* <div>{noticia.body}</div> */}
+              <h1>Vaga de emprego</h1>
+              <p>Analista de Dados</p>
+              <p>Analista de Banco de Dados</p>
+              <p>Analista de Infraestrutura</p>
+
+              <h1>Desligamentos</h1>
+              <p>Jose Carlos dos Anjos Junior</p>
             </div>
           </Card>
+          
         ))
       )}
     </div>
